@@ -1,0 +1,276 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.pd_padding {
+    padding: 6rem;
+}
+
+.flex {
+    display: flex;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 4rem;
+
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2rem;
+    padding: 1rem 0;
+}
+
+h4 {
+    font-size: 1.3rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+button {
+    border-radius: .6rem;
+    background-color: #6f51c7;
+    border: none;
+    padding: .2rem .8rem;
+}
+
+button a {
+    color: #fff;
+}
+
+/* starting header */
+
+.header_top {
+    justify-content: space-between;
+    padding: .5rem;
+}
+
+.header_top button {
+    margin-left: 1rem;
+}
+
+.logo {
+    text-align: center;
+    padding: .5rem 0;
+}
+
+nav ul {
+    justify-content: center;
+    padding: .5rem;
+}
+
+nav ul li {
+    padding: 0 .5rem;
+    font-size: .8rem;
+}
+
+nav li:hover {
+    border-radius: .6rem;
+    background-color: #6f51c7;
+    border: none;
+    padding: .2rem;
+}
+
+nav a {
+    color: #000;
+}
+
+nav li:hover a {
+    color: #fff;
+}
+
+.ul_home {
+    border-radius: .6rem;
+    background-color: #6f51c7;
+    border: none;
+    padding: .2rem .8rem;
+}
+
+.ul_main {
+    align-items: center;
+}
+
+.youtube_main {
+    justify-content: center;
+    align-items: center;
+
+}
+
+.youtube {
+    width: 10%;
+    padding: 0 1rem;
+}
+
+.youtube img {
+    width: 100%;
+}
+
+.dawnlod {
+    width: 10%;
+}
+
+.dawnlod img {
+    width: 100%;
+    padding: 0 1rem;
+}
+
+/* end header */
+
+/* slider starting  */
+.slider_back {
+    background: url(../img/elegant-skin-care-banner-design\ \(1\).jpg);
+    background-size: cover;
+    /* height: 80vh; */
+    color: #fff;
+}
+
+.slider_back h1 {
+    padding-top: 5rem;
+}
+
+.slider_back p {
+    padding-bottom: 5rem;
+}
+
+/* end slider */
+
+/* start banner */
+
+/* start about */
+.hr hr {
+    padding: .1rem;
+    width: 8%;
+    background: #000;
+    margin-left: 23rem;
+}
+
+.hr {
+    width: 100%;
+}
+
+.about_background {
+    background: #eff9e0;    
+}
+
+.about_main {
+    text-align: center;
+
+}
+
+.about_main a {
+    color: #000;
+}
+
+.about_inner {
+    justify-content: space-between;
+    width: 100%;
+    padding: 2rem 0;
+}
+
+.about_one {
+    height: 30vh;
+    border: 0.1rem solid #ccc2c2;
+    width: 20%;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    background: #fff;
+}
+
+.about_one:hover {
+    background: #6f51c7;
+    color: #fff;
+    border: none;
+}
+
+.about_one a:hover {
+    color: #fff;
+}
+
+/* end about section */
+
+/* starting banner2 */
+.banner-2 img {
+    width: 100%;
+}
+/* end banner2 */
+.services_inner{
+    width: 100%;
+    justify-content: space-between;
+    padding: 1.7rem 0 0 0;
+}
+.services_one{
+    width: 31.5%;
+    border: 0.1rem solid #000;
+    text-align: center;
+}
+.services_one img{
+    width: 100%;
+}
+.services_main h3{
+    text-align: center;
+}
+.services_one span h4{
+    text-align: center;
+    padding: 3.5rem 0 0.5rem 0;
+}
+.services_main .hr{
+    padding-bottom: 2rem;
+}
+/* end services */
+
+/* start new arrival */
+.new_arrival_one{
+    background-color: #000;
+    color: #fff;
+}
+.new_arrival_main{
+    width: 100%;
+}
+.new_arrival h3{
+    text-align: center;
+}
+.new_inner{
+    justify-content: space-between;
+}
+.new_one{
+    width: 20%;
+}
+.new_one img{
+    width: 100%;
+}
+.new_arrival .hr{
+    padding-bottom: 2rem;
+}
+.new_arrival .hr hr{
+    color: #fff;
+}
+.new_one{
+    text-align: center;
+}
+.new_one h4{
+    font-size: 1.2rem;
+}
